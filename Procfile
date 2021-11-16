@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/blogzine-0.0.1-SNAPSHOT.war
+web: java -Dserver.port = $ PORT -jar out/artifacts/codeblog_deploy_jar/codeblog-deploy.jar
